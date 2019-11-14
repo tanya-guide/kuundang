@@ -1,11 +1,11 @@
-@media (max-width: 500px){
+@media (max-width: 800px){
     .logo{
         margin-top: 5px;
         width: 60px;
     }
     .nav-link{
         color:grey;
-        font-size: 10px;
+        font-size: 15px;
         font-style: inherit;
     }
     .bingkai a{
@@ -15,7 +15,7 @@
         padding-bottom: 4px;
         margin-bottom: 1px;
         text-decoration: none;
-        font-size: 10px;
+        font-size: 15px;
         text-align: center;
         border-radius: 10px;
     }
@@ -41,8 +41,10 @@
         background:-webkit-linear-gradient(to right,#2FB6F9 0%,#0B28FF);
         background: linear-gradient(to right,#2FB6F9,#0B28FF);
         color: white;
-        padding: 3px 7px;
-        border-radius: 7px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 10px;
+        text-transform: uppercase;
         box-shadow: 5px 5px 2px rgba(0,0,0,.25);
         text-decoration: none;
         font-size: 9px;
@@ -74,13 +76,13 @@
         position: relative;
     }
     .kenapa-dua{
-        margin-top: 20px;
+        margin-top: 50px;
         text-align: center;
         color:#0C0640;
         font-size: 14px;
     }
     .tulisan, .tulisan-dua, .tulisan-tiga, .tulisan-landing{
-        width: 200px;
+        width: 250px;
         margin: auto;
     }
     .batas-kenapa{
@@ -88,12 +90,13 @@
         width: 50px;
         margin: auto;
         border-radius: 5px;
-        margin-top: -10px;
-        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
     .keunggulan{
         color:#0C0640;
         text-align: center;
+        margin-top: 30px;
     }
     .judul{
         font-size: 12px;
@@ -109,7 +112,7 @@
     .template-undangan{
         text-align: center;
     }
-    .template-undangan a{
+    .button a{
         background-color: #707070;
         color: white;
         padding: 2px 15px;
@@ -118,21 +121,28 @@
         border-radius: 2px;
         text-decoration: none;
     }
-    .template-undangan a:hover{
+    .button a:hover{
         color: black;
+        background-color: #d4d0d0;
+    }
+    .template-undangan{
+        margin-bottom: 10px;
     }
     .template{
-        width: 70px;
-        height: 110px;
+        width: 60px;
+        height: 150px;
         display: inline-block;
-        margin-bottom: 20px;
         margin-right:10px;
         margin-left: 10px;
+        margin-top: 20px;
     }
-    .template img{
+    .contoh img{
         width:60px;
-        box-shadow: 3px 3px 7px;
-        margin-bottom: 10px;
+        box-shadow: 0 0 16px rgba(0,0,0,.7) ;
+        margin-bottom: 20px;
+    }
+    .contoh img:hover{
+        box-shadow: 0 0 22px rgba(22, 51, 216, 0.7);
     }
     .footer{
         display: flex;
@@ -147,13 +157,13 @@
     .info{
         margin-left: 20px;
     }
-    .info span{
-        margin-right: 5px;
-        font-size: 8px;
+    .info img{
+        width: 20px;
+        margin-right: 7px;
     }
-    .info span img{
-        width: 10px;
-        margin-right: 5px;
+    .info{
+        margin-left: auto;
+        margin-right: 70px;
     }
     .copy{
         color: #707070;
@@ -164,13 +174,13 @@
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 800px){
     .logo{
-        width: 100px;
+        width: 50%;
     }
     .nav-link{
         color:grey;
-        font-size: 20px;
+        font-size: 18px;
         font-style: inherit;
     }
     .nav-link:hover::after{
@@ -184,8 +194,8 @@
         margin-bottom: -7px;
     }
     .bingkai{
-        width: 147px;
-        height: 33px;
+        width: 137px;
+        height: 30px;
         border: 2px solid skyblue;
         background: transparent;
         border-radius: 10px;
@@ -204,7 +214,7 @@
         margin-top: -1px;
         margin-right: 7px;
         margin-bottom: -6px;
-        font-size: 20px;
+        font-size: 18px;
         text-decoration: none;
     }
     .bingkai a:hover{
@@ -212,23 +222,23 @@
     }
     .tulisan-landing{
         position: absolute;
-        margin-left: 80px;
         margin-top: 200px;
         color:#0C0640;
         width: 420px;
     }
     .tulisan-landing h2{
-        font-size: 35px;
+        font-size: 28px;
         margin-bottom: -3px;
         font-weight: bold;
     }
     .tulisan-landing p{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 12px;
-        font-weight: bold;
-        text-transform: uppercase;
+        font-size: 13px;
+        margin-top: 5px;
+        color: #4e4d4d;
+        margin-bottom: 17px;
     }
-    .tulisan-landing div{
+    .tulisan-landing div{   
         text-align: left;
     }
     .tulisan-landing a{
@@ -236,8 +246,11 @@
         background:-webkit-linear-gradient(to right,#2FB6F9 0%,#0B28FF);
         background: linear-gradient(to right,#2FB6F9,#0B28FF);
         color: white;
-        padding: 5px 10px;
-        border-radius: 15px;
+        padding: 8px 15px;
+        border-radius: 7px;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
         box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
         text-decoration: none;
     }
@@ -289,7 +302,7 @@
         margin-top: 80px;
     }
     .batas-kenapa{
-        border: 2px solid black;
+        border-bottom: 2px solid black;
         width: 100px;
         margin: auto;
         border-radius: 5px;
@@ -322,7 +335,7 @@
         margin-right: 100px;
     }
     .batas-garis{
-        border: 1px solid grey;
+        border-bottom: 2px solid #d1cfcf;
         width: 400px;
         margin: auto;
         margin-bottom: 20px;
@@ -344,7 +357,7 @@
     .template-undangan{
         text-align: center;
     }
-    .template-undangan a{
+    .button a{
         background-color: #707070;
         color: white;
         padding: 5px 25px;
@@ -354,8 +367,9 @@
         text-decoration: none;
         text-transform: uppercase;
     }
-    .template-undangan a:hover{
+    .button a:hover{
         color: black;
+        background-color: #d4d0d0;
     }
     .template{
         width: 150px;
@@ -366,32 +380,36 @@
         margin-left: 50px;
         margin-top: 20px;
     }
-    .template img{
+    .contoh img{
         width:150px;
-        box-shadow: 4px 4px 10px;
+        box-shadow: 0 0 16px rgba(0,0,0,.7) ;
         margin-bottom: 20px;
+    }
+    .contoh img:hover{
+        box-shadow: 0 0 22px rgba(22, 51, 216, 0.7);
     }
     .footer{
         display: flex;
         align-items: center;
         background-color: #EFEFEF;
         width: 100%;
+        height: 50px;
     }
     .logo-footer{
-        width: 100px;
-        margin-left: 200px;
+        width: 60px;
+        margin-left: 70px;
     }
     .info{
         margin-left: 200px;
     }
     .info img{
-        width: 30px;
+        width: 20px;
         margin-right: 10px;
         margin-top: -5px;
     }
-    .info span{
-        margin-right: 50px;
-        font-size: 15px;
+    .info{
+        margin-left: auto;
+        margin-right: 70px;
     }
     .copy{
         color: #707070;
