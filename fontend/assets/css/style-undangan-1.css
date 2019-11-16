@@ -1,4 +1,4 @@
-@media (max-width: 500px){
+@media (max-width: 800px){
     .logo{
         margin-top: 5px;
         width: 60px;
@@ -24,6 +24,54 @@
         }
     .template img{
         width: 100%;
+    }
+    /* isi */
+
+    .daun img{
+        width: 20%;
+        display: flex;
+        position: absolute;
+    }
+    .tengah{
+        margin: auto;
+        text-align: center;
+        font-family: great vibes,cursive;
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .tengah img{
+        width: 20%;
+        margin-bottom: 5px;
+    }
+    .basmalah{
+        text-align: center;
+        font-size: 10px;
+    }
+    .nama{
+        margin-top: 20px;
+        font-family: great vibes, cursive;
+        font-size: 20px;
+        text-align: center;
+    }
+    .undangan{
+        text-align: center;
+        font-size: 10px;
+    }
+    .daun-dua img{
+        float: right;
+        width: 20%;
+        position: relative;
+    }
+    .bg img{
+        position: relative;
+        width: 100%;
+    }
+    .tamu{
+        overflow: auto;
+    }
+    .template{
+        background-image: url(../image/undangan-1/Union\ 3.png);
+        background-size: cover;
     }
 
 /* footer */
@@ -57,7 +105,7 @@
         margin-top: 8px;
     }
 }
-@media (min-width: 992px){
+@media (min-width: 800px){
     .logo{
         width: 100px;
     }
