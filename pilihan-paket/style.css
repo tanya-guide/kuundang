@@ -1,0 +1,123 @@
+.container h1 {
+  margin-top: 60px;
+  text-align: center;
+  font: Bold 25px/30px "Poppins";
+  letter-spacing: 0.5px;
+  color: #0885f5;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.container h1::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #0885f5;
+  margin: auto;
+  width: 50%;
+  padding-bottom: 15px;
+}
+
+.paket {
+  background: transparent linear-gradient(0deg, #0885f5 0%, #c800bb 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 40px 40px 10px 10px;
+  opacity: 1;
+  margin: 80px 25px 0;
+  height: 339px;
+  width: 242px;
+}
+
+.bulat {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 3px solid #0885f5;
+  opacity: 1;
+  height: 135px;
+  width: 135px;
+  border-radius: 100%;
+  text-align: center;
+  font: Bold 30px/135px "Poppins";
+  letter-spacing: 0;
+  color: #0c0640;
+  opacity: 1;
+  margin: auto;
+  position: relative;
+  top: -50px;
+}
+
+.paket h2 {
+  margin-top: -35px;
+  text-align: center;
+  font: Bold 18px/30px "Poppins";
+  letter-spacing: 1px;
+  color: #ffffff;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.paket h2::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid white;
+  margin: auto;
+  width: 28%;
+  padding-bottom: 10px;
+}
+.paket h3 {
+  text-align: center;
+  font: Bold 16px/30px "Poppins";
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 1;
+  margin-left: 8px;
+  margin-bottom: 22px;
+}
+
+.paket h6 {
+  text-align: center;
+  font: normal 15px/30px "Work Sans";
+  letter-spacing: 0.48px;
+  color: #ffffff;
+  opacity: 1;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.tombol {
+  margin: auto;
+  margin-top: 25px;
+  width: 213px;
+  height: 37px;
+  background: #0885f5 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
+.tombol a {
+  text-align: left;
+  font: bold 17px/30px "Poppins", sans-serif;
+  letter-spacing: 0.34px;
+  color: #ffffff;
+  opacity: 1;
+  text-transform: uppercase;
+  line-height: 37px;
+}
+
+.container p {
+  margin-top: 30px;
+  text-align: center;
+  font: normal 18px/30px 'Poppins', sans-serif;
+  letter-spacing: 0.36px;
+  color: #818181;
+  opacity: 1;
+}
+/* Desktop Version */
+@media (min-width: 992px) {
+  .container h1::after {
+    width: 5%;
+  }
+
+  .tombol {
+    margin-bottom: 0;
+  }
+}
