@@ -1,4 +1,23 @@
+.tombol-batal{
+    width: 148px;
+    margin-right: 4px;
+    color: #3886F9;
+    background-color: transparent;
+    border: 2px solid #3886F9;
+}
+.tombol-batal:hover{
+    background-color: #3886F9;
+    border: 2px solid #3886F9;
+    color: white;
+}
+.tombol-daftar{
+    width: 148px;
+    background-color: #3886F9;
+}
 @media (max-width: 800px){
+    body{
+        font-family: Poppins, regular;
+    }
     .logo{
         margin-top: 5px;
         width: 60px;
@@ -31,15 +50,27 @@
         width: 80%;
     }
     .daftar{
-        width: 100%;
+        width: 300px;
         overflow: hidden;
-        align-items: center;
+        text-align: left;
     }
-    .judul{
-        background-color: #3886F9;
-        color: white;
+    .daftar h2{
+        color: #3886F9;
         margin-bottom: 10px;
-        padding: 5px 10px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .daftar .g{
+        border-bottom: 2px solid #3886F9;
+        width: 24px;
+        border-radius: 2px;
+        margin-top: -23px;
+        margin-left: 70px;
+        margin-bottom: 10px;
+    }
+    .daftar p{
+        font-size: 12px;
+        color: #818181;
     }
     input{
         width: 100%;
@@ -48,13 +79,6 @@
         padding: 3px 10px;
         color: #B2ADAD;
         font-size: 15px;
-    }
-    .bodi a{
-        padding: 5px 20px;
-        background-color: #3886F9;
-        color: white;
-        border-radius: 7px;
-        float: right;
     }
     .gambar img{
         width: 65%;
@@ -68,6 +92,9 @@
     }
 }
 @media (min-width: 800px){
+    body{
+        font-family: Poppins, regular;
+    }
     .logo{
         width: 50%;
     }
@@ -87,7 +114,7 @@
         margin-bottom: -7px;
     }
     .bingkai{
-        width: 137px;
+        width: 145px;
         height: 30px;
         border: 2px solid skyblue;
         background: transparent;
@@ -113,16 +140,30 @@
     .bingkai a:hover{
         color: grey;
     }
+    /* akhir navbar */
+
     .daftar{
         width: 300px;
         overflow: hidden;
         align-items: center;
     }
-    .judul{
-        background-color: #3886F9;
-        color: white;
+    .daftar h2{
+        color: #3886F9;
         margin-bottom: 10px;
-        padding: 5px 10px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .daftar .g{
+        border-bottom: 2px solid #3886F9;
+        width: 24px;
+        border-radius: 2px;
+        margin-top: -25px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+    .daftar p{
+        font-size: 13px;
+        color: #818181;
     }
     input{
         width: 100%;
@@ -131,18 +172,25 @@
         padding: 3px 10px;
         color: #B2ADAD;
         font-size: 15px;
+        border-radius: 5px;
     }
-    .bodi a{
-        padding: 5px 20px;
-        background-color: #3886F9;
-        color: white;
-        border-radius: 7px;
-        float: right;
+    .buat-akun{
+        text-align: center;
+        margin-top: 20px;
     }
-    .bodi a:hover{
-        background-color: #003feb;
-        color: black;
+    .buat-akun h5{
+        color: #818181;
+        font-size: 13px;
+        margin-bottom: -3px;
+    }
+    .buat-akun a{
+        font-size: 13px;
+        color: #0885F5;
+        font-weight: bolder;
         text-decoration: none;
+    }
+    .buat-akun a:hover{
+        color: #003feb;
     }
     .bodi{
         display: flex;
