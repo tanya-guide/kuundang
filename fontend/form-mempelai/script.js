@@ -11,16 +11,21 @@
 // })
 
 $(document).ready(function() {
-    $('.field input').on('keyup', function() {
-      let empty = false;
-  
-      $('.field input').each(function() {
-        empty = $(this).val().length == 0;
-      });
-  
-      if (empty)
-        $('.action .tombol').attr('disabled', 'disabled');
-      else
-        $('.action .tombol').attr('disabled', false);
-    });
-  });
+    var inputName = $('input.name')
+    var btnPreview = $('section#template div.kotak a.btn')
+    btnPreview.addClass('disabled')
+    inputName.keyup(function() {
+        var totalInputNull = 4
+        inputName.each(function() {
+            if ('' !== $(this).val()) {
+                totalInputNull--
+            }
+        })
+        if (0 === totalInputNull) {
+            btnPreview.removeClass('disabled')
+        } else {
+            btnPreview.addClass('disabled')
+        }
+    })
+
+});

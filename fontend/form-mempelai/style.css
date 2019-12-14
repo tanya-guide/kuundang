@@ -77,7 +77,8 @@ body {
   text-align: left;
   font: lighter 15px/30px 'Poppins';
   letter-spacing: 0.3px;
-  color: #ffffff;
+  color: #ffffff !important;
+  display: inline !important;
   opacity: 1;
   padding: 5px 20px;
   text-decoration: none;
