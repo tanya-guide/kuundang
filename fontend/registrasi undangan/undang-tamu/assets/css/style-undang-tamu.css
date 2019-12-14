@@ -1,0 +1,385 @@
+/* android profile */
+body{
+    padding-bottom: 100px;
+}
+    figure{
+    margin-top: 80px;
+}
+
+.gambar{
+    width: 40px;
+    margin-top: 15px;
+    position: relative;
+    margin-left:17px ;
+}
+.photo{
+    position:absolute;
+    margin-left:35px;
+    border-radius: 10px;
+    border: 3px solid #2AA4FB;
+    height: 80px;
+    width:  80px;
+    background-color:#FFFFFF;
+    opacity: 1;
+}
+h5{
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    margin-left:5px;
+    color: #0C0640;
+}
+
+ figure span{
+    margin-top: -30px;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    margin-left: 15px;
+    font-size: 9px;
+}
+/* akhir android profile */
+
+ /* navigasi  */
+
+.list{
+    margin: auto;
+    margin-top: -5px;
+    border-bottom: 1px solid #818181;
+}
+
+.list a{
+    text-align: center;
+    margin-left: 2px;
+    font-size: 10px;
+    text-decoration: none;
+    color: #818181;
+    border-top: 1px solid #585858 ;
+    border-left: 1px solid #585858 ;
+    border-right: 1px solid #585858;
+    margin-right: 4px;
+    padding-bottom: 4px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius : 5px 5px 0px 0px;
+    width: 100%;
+    line-height: 10px;
+    height: 30px;
+}
+
+.atur{
+    position: relative;
+    line-height: 18px !important;
+}
+.list a:hover{
+    cursor: pointer;
+    border: 0px;
+    color: #ffffff;
+   background:  #0885F5;
+}
+
+
+/* akhir navigasi */
+
+
+/* form daftar tamu */
+h2{
+    font-family: 'Poppins','SemiBold';
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    border-bottom:1px solid #585858 ;
+}
+
+label{
+    position: relative;
+    font-family: 'Poppins', 'SemiBold';
+    left: 60px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* akhir form daftar tamu */
+
+/* List Tamu */
+h3{
+    color: #585858 ;
+    font-family: 'Poppins','SemiBold';
+    font-size: 25px;
+    margin-top: 60px;
+    border-bottom:1px solid #585858 ;
+}
+
+.jumbotron{
+    margin-top: 15px;
+    margin:auto ;
+    height: 490px !important;
+}
+
+.data-tamu{
+    top: 20px;
+    font-family: 'Poppins';
+    margin-top: -30px;
+    margin-bottom: 60px;
+    font-size: 15px;
+    position: relative;
+    color: #0C0640;
+    background-color: #FFFFFF;
+    height: 180px;
+}
+
+.data-tamu p{
+    font-family: 'Poppins';
+    font-size: 8px;
+    position: relative;
+    color: #818181;
+}
+
+.data-tamu span{
+    top: -30px;
+    font-family: 'Poppins';
+    position: relative;
+    background-color: #585858;
+    padding: 8px 20px;
+    color: #ffffff;
+    font-size: 12px;
+    opacity: 1;
+}
+
+.data-tamu footer{
+    bottom: 10px;
+    position: relative; 
+    font-family: 'Poppins';
+    font-size: 8px;
+    color: #585858;
+}
+
+.data-tamu button{
+    bottom: 20px;
+    font-size: 10px;
+    width: 100px !important;
+    position: relative;
+    display: inline-block;
+}
+/* akhir List Tamu */
+
+
+@media(min-width:922px){
+/* profile */
+    .photo{
+        position:absolute;
+        margin-left: 53px;
+        border-radius: 10px;
+        border: 3px solid #2AA4FB;
+        height: 120px;
+        width:  120px;
+        background-color:#FFFFFF;
+        opacity: 1;
+    }
+    h5{
+        font-size: 30px;
+        padding-top: 20px;
+        margin-top: 120px;
+        position: relative;
+        margin-left:5px;
+        color: #0C0640;
+    }
+
+    figure span{
+        font-size: 15px;
+    }
+    .gambar{
+        width: 61px;
+        margin-top: 25px;
+        position: relative;
+        margin-left:27px ;
+        /* akhir profile */
+    }
+
+    h2{
+        margin-left: -30px;    
+        text-align: left;
+        font-size: 25px;
+        margin-top: 225px;
+    }
+
+    label{
+        text-align: left;
+        margin-left:-168px ;
+        margin-top: 280px;
+    }
+    /* navigasi */
+
+    .list{
+        margin: auto;
+        border-bottom: 1px solid #585858;
+    }
+    
+    .list a{
+        text-align: center;
+        font-size: 18px;
+        text-decoration: none;
+        color: #818181;
+        border-top: 1px solid #585858 ;
+        border-left: 1px solid #585858 ;
+        border-right: 1px solid #585858;
+        margin-right: 14px;
+        border-radius : 5px 5px 0px 0px;
+        line-height: 28px;
+        width: 150px;
+        height: 40px;
+    }
+
+    .atur{
+        position: relative;
+        line-height: 28px !important;
+}
+/* akhir navigasi */
+
+/* form daftar tamu */
+h2{
+    color: #585858;
+    text-decoration: none;
+    margin-left: -570px;
+    font-family: 'Poppins','SemiBold';
+    text-align: left;
+    font-size: 25px;
+    margin-top: 100px;
+    border-bottom: 0px;
+}
+
+h2 span{
+    display: inline-block;
+    position: relative;
+}
+
+h2 span::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 2px solid #585858 ;
+    top:10px;
+    width:43px;
+    left: 100%;
+    margin-left: 15px;
+}
+
+label{
+    color: #585858 ;
+    margin-left: -630px;
+    margin-top: 10px;   
+}
+
+.form-group{
+    margin-left: -570px;
+    width: 400px;
+}
+
+textarea{
+    width: 400px !important;
+}
+
+button{
+    margin-top: 20px;
+    width: 190px !important;
+}
+/* akhir form daftar tamu */
+
+/* List Tamu */
+h3{
+    position: relative;
+    color: #585858 ;
+    text-decoration: none;
+    margin-left: -1000px;
+    font-family: 'Poppins','SemiBold';
+    text-align: left;
+    font-size: 25px;
+    margin-top: 60px;
+    border-bottom: 0px;
+}
+
+h3 span{
+    display: inline-block;
+    position: relative;
+}
+
+h3 span::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 2px solid #585858 ;
+    top:10px;
+    width:43px;
+    left: 100%;
+    margin-left: 15px;
+}
+
+.jumbotron{
+    margin: auto;
+    width: 1000px !important;
+    margin-top: 15px;
+    margin-left: -13px;
+    height: 430px;
+}
+
+.data-tamu{
+    font-family: 'Poppins';
+    margin-top: -60px;
+    margin-bottom: 90px;
+    font-size: 22px;
+    position: relative;
+    color: #0C0640;
+    background-color: #FFFFFF;
+    height: 180px;
+}
+
+h4{
+    position: relative;
+    right: 300px;
+}
+
+.data-tamu p{
+    left: 89px;
+    top: 5px;
+    font-family: 'Poppins';
+    font-size: 13px;
+    position: relative;
+    color: #818181;
+}
+.data-tamu span{
+    right:20px;
+    top: -25px;
+    font-family: 'Poppins';
+    position: relative;
+    background-color: #585858;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    opacity: 1;
+}
+
+.data-tamu footer{
+    right: 250px;
+    position: relative;
+    bottom: 10px;
+    font-family: 'Poppins';
+    font-size: 11px;
+    color: #585858;
+}
+
+.data-tamu button{
+    width: 100px !important;
+    position: relative;
+    bottom: 80px;
+    left: 300px;
+    display: inline-block;
+}
+/* akhir List Tamu */
+body{
+    padding-bottom: 200px;
+}
+
+}

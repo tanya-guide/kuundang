@@ -1,0 +1,327 @@
+.logo{
+    width: 100px;
+}
+.nav-link{
+    margin-left: auto;
+    color:grey;
+    font-size: 20px;
+    font-style: inherit;
+}
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    color: black;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 4px;
+    margin-bottom: -7px;
+}
+@media (max-width: 500px){
+    .logo{
+        margin-top: 5px;
+        width: 60px;
+    }
+
+    .h2{
+        font-size: 10px;
+    }
+    .bingkai a{
+        color: blue;
+        border:1px solid blue;
+        padding: 1px 8px;
+        margin-right:23px;
+        margin-top: 20px;
+        float: right;
+        text-decoration: none;
+    }
+    .bingkai a:hover{
+        color: black;
+        }
+    .bingkai{
+        width: 100%;
+    }
+    .tombol{
+        color:grey;
+        font-size: 20px;
+        font-style: inherit;  
+        border-radius: 10px;
+        text-decoration: none;
+        margin-left: auto;
+    }
+    .tulisan-landing a{
+        background: blue;
+        background:-webkit-linear-gradient(to right,#0ee2e2,#0340c4);
+        background: linear-gradient(to right,#0ee2e2,#0340c4);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+        text-decoration: none;
+    }
+    .tulisan-landing a:hover{
+        background: blue;
+        background:-webkit-linear-gradient(to right,#0340c4,#0ee2e2);
+        background: linear-gradient(to right,#0340c4,#0ee2e2);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+        text-decoration: none;
+        }
+    .atas{
+        text-align: center;
+    }
+    .atas img{
+        width: 80%;
+        margin-top: 30px;
+    }
+    .tulisan-landing h2{
+        font-size: 35px;
+        margin-bottom: -5px;
+        margin-top: 20px;
+    }
+    .uo{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .gambar-landing img{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .kenapa{
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+    .kenapa img{
+        width: 15%;
+        margin-top: -15px;
+    }
+    .hemat-biaya{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 130%;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .isi{
+        text-align: justify;
+    }
+    .hemat{
+        text-align: center;
+    }
+    .hemat-dua{
+        text-align: center;
+    }
+    .gb{
+        width: 50px;
+        margin-top: -20px;
+    }
+    .print{
+        width: 50%;
+    }
+    .print-dua{
+        width: 50%;
+    }
+    .batas{
+        text-align: center;
+    }
+    .batas img{
+        width: 50px;
+        margin-top: 50px;
+    }
+    .bulat-footer{
+        width: 35%;
+        position: absolute;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+    }
+    .logoe{
+        position: relative;
+        width: 15%;
+        margin-top: 30px;
+        margin-left: 23px;
+    }
+    .wa{
+        margin-left: 20px;
+    }
+    .wa span{
+        margin-right: 5px;
+        font-size: 8px;
+    }
+    .wa span img{
+        width: 10px;
+        margin-right: 5px;
+    }
+}
+
+
+@media (min-width: 992px){
+    .bingkai{
+        width: 150px;
+        height: 40px;
+        border: 2px solid skyblue;
+        background: transparent;
+        border-radius: 10px;
+        margin-top: 3px;
+        padding-right: -20px;
+    }
+    .bingkai .garis{
+       border: 1px solid cornflowerblue;
+        margin-top: 8px;
+        margin-left: 5px;
+        height: 20px;
+    }
+    .bingkai a{
+        color: skyblue;
+        margin-left: 10px;
+        margin-top: 2px;
+        text-decoration: none;
+    }
+    .garis{
+        border: 1px solid royalblue;
+        color: royalblue;
+        height: 25px;
+        margin-top: 5px;
+    }
+    .bingkai a:hover{
+        color: grey;
+    }
+    .tombol{
+        color:white;
+        font-size: 20px;
+        font-style: inherit;   
+        text-decoration: none;
+        
+        margin-bottom: -6px;
+        margin-left: 4px;
+        margin-right: 4px;  
+    }
+    .tulisan-landing h2{
+        font-size: 35px;
+        margin-bottom: -3px;
+    }
+    .uo{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .tulisan-landing{
+        position: absolute;
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+    .tulisan-landing div{
+        text-align: left;
+    }
+    .tulisan-landing a{
+        background: blue;
+        background:-webkit-linear-gradient(to right,#0ee2e2,#0340c4);
+        background: linear-gradient(to right,#0ee2e2,#0340c4);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+        text-decoration: none;
+    }
+    .tulisan-landing a:hover{
+        background: blue;
+        background:-webkit-linear-gradient(to right,#0340c4,#0ee2e2);
+        background: linear-gradient(to right,#0340c4,#0ee2e2);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+        text-decoration: none;
+    }
+    .atas{
+        overflow: auto;
+    }
+    .atas img{
+        width: 55%;
+        float: right;
+    }
+    .kenapa{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #F6F6F6;
+    }
+    .kenapa img{
+        width: 5%;
+        margin-top: -15px;
+    }
+    .hemat{
+        margin-top: 30px;
+        overflow: auto;
+    }
+    .tulisan{
+        width: 500px;
+        height: 300px;
+        float: left;
+        margin-left: 100px;
+    }
+    .gb{
+        width: 101px;
+        height: 7px;
+        margin-top: -20px;
+    }
+    .hemat .print{
+        width: 25%;
+        float: right;
+        margin-right: 100px;
+    }
+    .hemat-dua{
+        overflow: auto;
+        margin-top: 20px;
+    }
+    .tulisan-dua{
+        width: 500px;
+        height: 300px;
+        float: right;
+        text-align: right;
+        margin-right: 100px;
+    }
+    .hemat-dua .print-dua{
+        width: 25%;
+        float: left;
+        margin-left: 100px;
+    }
+    .batas{
+        margin-top: 200px;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+    .bulat-footer{
+        margin-top: -100px;
+        width: 35%;
+        position: absolute;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+    }
+    .logoe{
+        position: relative;
+        width: 15%;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    .wa{
+        margin-left: 300px;
+    }
+    .wa span{
+        margin-right: 50px;
+        font-size: 15px;
+    }
+    .wa span img{
+        width: 40px;
+        margin-right: 20px;
+    }
+  
+        }
